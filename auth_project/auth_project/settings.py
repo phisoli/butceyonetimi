@@ -1,16 +1,14 @@
 import os
 from pathlib import Path
 
-# Proje dizini
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Güvenlik anahtarı (gizli tutmalısın!)
+
 SECRET_KEY = 'django-insecure-bir-gizli-anahtar'
 
-# Geliştirme aşamasında True, canlıda False olmalı
 DEBUG = True
 
-# Hangi hostlara izin verileceği
 ALLOWED_HOSTS = []
 
 # Yüklü uygulamalar

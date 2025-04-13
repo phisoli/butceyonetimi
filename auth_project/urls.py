@@ -12,7 +12,7 @@ urlpatterns = [
     path('password-reset/', accounts_views.password_reset_request, name='password_reset_request'),
     path('reset-password/<uuid:token>/', accounts_views.password_reset_confirm, name='password_reset_confirm'),
     
-    # Para Sekreterim uygulama URL'leri
+  
     path('gelir-gider/', accounts_views.income_expense_view, name='income_expense'),
     path('gelir-ekle/', accounts_views.add_income_view, name='add_income'),
     path('gider-ekle/', accounts_views.add_expense_view, name='add_expense'),
